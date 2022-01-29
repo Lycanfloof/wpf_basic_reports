@@ -14,7 +14,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <DataGrid x:Name="TownGrid" d:ItemsSource="{Binding TownGrid}"/>
+        <DataGrid x:Name="TownGrid"/>
         <ScrollBar x:Name="ScrollBar" Grid.Column="1"/>
     </Grid>
 </UserControl>

@@ -1,21 +1,7 @@
 ﻿using Microsoft.Win32;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using wpf_basic_reports.Model;
-using wpf_basic_reports.UI;
 
 namespace wpf_basic_reports
 {
@@ -31,19 +17,24 @@ namespace wpf_basic_reports
             InitializeComponent();
         }
 
-        private void OpenButton_Click(object sender, RoutedEventArgs e)
+        private void OpenButtonClick(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new();
             if (openFileDialog.ShowDialog() == true)
             {
                 townDisplay.ReadData(openFileDialog.FileName);
-                TableButton_Click(sender, e);
+                TableButtonClick(sender, e);
             }
         }
 
-        private void TableButton_Click(object sender, RoutedEventArgs e)
+        private void TableButtonClick(object sender, RoutedEventArgs e)
         {
+            MenuFrame.Source = new Uri("/UI/TableView.xaml", UriKind.RelativeOrAbsolute);
+        }
 
+        private void ChartButtonClick(object sender, RoutedEventArgs e)
+        {
+            MenuFrame.Source = new Uri("/UI/ChartView.xaml", UriKind.RelativeOrAbsolute);
         }
     }
 }
