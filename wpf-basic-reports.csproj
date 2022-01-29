@@ -6,6 +6,7 @@
     <RootNamespace>wpf_basic_reports</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <StartupObject>wpf_basic_reports.App</StartupObject>
   </PropertyGroup>
 
 </Project>

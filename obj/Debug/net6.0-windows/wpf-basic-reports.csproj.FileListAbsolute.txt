@@ -19,3 +19,7 @@ C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\wpf-basic
 C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\ref\wpf-basic-reports.dll
 C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\wpf-basic-reports.pdb
 C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\wpf-basic-reports.genruntimeconfig.cache
+C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\UI\TableView.g.cs
+C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\UI\TableView.baml
+C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\UI\ChartView.g.cs
+C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\UI\ChartView.baml

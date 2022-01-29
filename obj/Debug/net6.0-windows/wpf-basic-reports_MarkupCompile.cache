@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\ariep\source\repos\wpf-basic-reports\App.xaml
-11407045341
+31769380856
 
-5-1532518736
+72041933576
 1941142463650
-MainWindow.xaml;
+MainWindow.xaml;UI\ChartView.xaml;UI\TableView.xaml;
 
 False
 

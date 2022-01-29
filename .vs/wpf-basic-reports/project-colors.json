@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7771f6da-af87-445f-834d-810657e5d718": {
+      "ProjectGuid": "7771f6da-af87-445f-834d-810657e5d718",
+      "DisplayName": "wpf-basic-reports",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
