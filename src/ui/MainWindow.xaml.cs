@@ -1,9 +1,9 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Windows;
-using wpf_basic_reports.Model;
+using wpf_basic_reports.src.model;
 
-namespace wpf_basic_reports
+namespace wpf_basic_reports.src.ui
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -29,12 +29,12 @@ namespace wpf_basic_reports
 
         private void TableButtonClick(object sender, RoutedEventArgs e)
         {
-            MenuFrame.Source = new Uri("/UI/TableView.xaml", UriKind.RelativeOrAbsolute);
+            MenuFrame.Source = new Uri("/src/ui/TableView.xaml", UriKind.RelativeOrAbsolute);
         }
 
         private void ChartButtonClick(object sender, RoutedEventArgs e)
         {
-            MenuFrame.Source = new Uri("/UI/ChartView.xaml", UriKind.RelativeOrAbsolute);
+            MenuFrame.Source = new Uri("/src/ui/ChartView.xaml", UriKind.RelativeOrAbsolute);
         }
     }
 }

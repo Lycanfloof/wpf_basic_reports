@@ -5,11 +5,8 @@ C:\Users\ariep\source\repos\wpf-basic-reports\bin\Debug\net6.0-windows\wpf-basic
 C:\Users\ariep\source\repos\wpf-basic-reports\bin\Debug\net6.0-windows\ref\wpf-basic-reports.dll
 C:\Users\ariep\source\repos\wpf-basic-reports\bin\Debug\net6.0-windows\wpf-basic-reports.pdb
 C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\wpf-basic-reports.csproj.AssemblyReference.cache
-C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\MainWindow.g.cs
-C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\wpf-basic-reports_MarkupCompile.cache
 C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\wpf-basic-reports_MarkupCompile.lref
-C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\MainWindow.baml
 C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\wpf-basic-reports.g.resources
 C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\wpf-basic-reports.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\wpf-basic-reports.AssemblyInfoInputs.cache
@@ -19,7 +16,10 @@ C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\wpf-basic
 C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\ref\wpf-basic-reports.dll
 C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\wpf-basic-reports.pdb
 C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\wpf-basic-reports.genruntimeconfig.cache
-C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\UI\TableView.g.cs
-C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\UI\TableView.baml
-C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\UI\ChartView.g.cs
-C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\UI\ChartView.baml
+C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\src\ui\ChartView.g.cs
+C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\src\ui\MainWindow.g.cs
+C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\src\ui\TableView.g.cs
+C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\src\ui\App.g.cs
+C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\src\ui\ChartView.baml
+C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\src\ui\MainWindow.baml
+C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\src\ui\TableView.baml

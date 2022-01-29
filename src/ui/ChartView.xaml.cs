@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace wpf_basic_reports.UI
+namespace wpf_basic_reports.src.ui
 {
     /// <summary>
     /// Interaction logic for ChartView.xaml

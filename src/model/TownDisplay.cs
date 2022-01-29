@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace wpf_basic_reports.Model
+namespace wpf_basic_reports.src.model
 {
     internal class TownDisplay
     {

@@ -1,4 +1,4 @@
-﻿namespace wpf_basic_reports.Model
+﻿namespace wpf_basic_reports.src.model
 {
     internal class Town
     {

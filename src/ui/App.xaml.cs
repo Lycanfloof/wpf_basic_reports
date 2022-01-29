@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace wpf_basic_reports
+namespace wpf_basic_reports.src.ui
 {
     /// <summary>
     /// Interaction logic for App.xaml

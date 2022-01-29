@@ -6,7 +6,15 @@
     <RootNamespace>wpf_basic_reports</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
-    <StartupObject>wpf_basic_reports.App</StartupObject>
+    <StartupObject>wpf_basic_reports.src.ui.App</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Page Remove="src\ui\App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ApplicationDefinition Include="src\ui\App.xaml" />
+  </ItemGroup>
 
 </Project>
