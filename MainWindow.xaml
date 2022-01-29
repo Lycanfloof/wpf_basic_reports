@@ -13,9 +13,9 @@
         </Grid.RowDefinitions>
         <Frame Source="/UI/TableView.xaml" Grid.Row="1"/>
         <ToolBar Grid.Row="0">
-            <Button Content="Open"/>
-            <Button Content="View Table"/>
-            <Button Content="View Chart"/>
+            <Button x:Name="OpenButton" Content="Open" Click="OpenButton_Click"/>
+            <Button x:Name="TableButton" Content="View Table" Click="TableButton_Click"/>
+            <Button x:Name="ChartButton" Content="View Chart"/>
         </ToolBar>
     </Grid>
 </Window>

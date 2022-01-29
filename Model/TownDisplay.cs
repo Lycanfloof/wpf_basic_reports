@@ -21,7 +21,7 @@ namespace wpf_basic_reports.Model
             sr.ReadLine();
             while ((value = sr.ReadLine()) != null)
             {
-                string[] values = value.Split();
+                string[] values = value.Split(",");
                 Towns.Add(new Town(Convert.ToInt32(values[0]), Convert.ToInt32(values[1]), values[2], values[3]));
             }
         }

@@ -1,18 +1,18 @@
 ﻿wpf-basic-reports
-1.0.0.0
+
 
 winexe
 C#
 .cs
-C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\
+C:\Users\ariep\source\repos\wpf-basic-reports\obj\Release\net6.0-windows\
 wpf_basic_reports
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
 C:\Users\ariep\source\repos\wpf-basic-reports\App.xaml
 31769380856
 
-101579337393
+8872051693
 1941142463650
 MainWindow.xaml;UI\ChartView.xaml;UI\TableView.xaml;
 
