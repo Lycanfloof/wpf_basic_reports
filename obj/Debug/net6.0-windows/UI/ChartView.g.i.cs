@@ -53,7 +53,7 @@ namespace wpf_basic_reports.UI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/wpf-basic-reports;V1.0.0.0;component/ui/chartview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/wpf-basic-reports;component/ui/chartview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\UI\ChartView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

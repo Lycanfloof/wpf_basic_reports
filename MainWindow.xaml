@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf_basic_reports"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Town Display" Height="450" Width="800">
     <Grid>
-        <Frame Source="/UI/TableView.xaml"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Frame Source="/UI/TableView.xaml" Grid.Row="1"/>
+        <ToolBar Grid.Row="0">
+            <Button Content="Open"/>
+            <Button Content="View Table"/>
+            <Button Content="View Chart"/>
+        </ToolBar>
     </Grid>
 </Window>
