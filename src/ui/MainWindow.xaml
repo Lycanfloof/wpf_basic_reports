@@ -16,6 +16,8 @@
             <Button Content="View Table" Click="TableButtonClick"/>
             <Button Content="View Chart" Click="ChartButtonClick"/>
         </ToolBar>
-        <Frame Name="MenuFrame" Source="/src/ui/TableView.xaml" Grid.Row="1" NavigationUIVisibility="Hidden"/>
+        <ScrollViewer Grid.Row="1" CanContentScroll="True">
+            <DataGrid x:Name="TownGrid" Grid.Row="1"/>
+        </ScrollViewer>
     </Grid>
 </Window>

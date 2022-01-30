@@ -10,7 +10,7 @@ namespace wpf_basic_reports.src.ui
     /// </summary>
     public partial class MainWindow : Window
     {
-        private TownDisplay townDisplay;
+        private readonly TownDisplay townDisplay;
         public MainWindow()
         {
             townDisplay = new TownDisplay();
@@ -23,18 +23,19 @@ namespace wpf_basic_reports.src.ui
             if (openFileDialog.ShowDialog() == true)
             {
                 townDisplay.ReadData(openFileDialog.FileName);
+                TownGrid.ItemsSource = townDisplay.Towns;
                 TableButtonClick(sender, e);
             }
         }
 
         private void TableButtonClick(object sender, RoutedEventArgs e)
         {
-            MenuFrame.Source = new Uri("/src/ui/TableView.xaml", UriKind.RelativeOrAbsolute);
+
         }
 
         private void ChartButtonClick(object sender, RoutedEventArgs e)
         {
-            MenuFrame.Source = new Uri("/src/ui/ChartView.xaml", UriKind.RelativeOrAbsolute);
+
         }
     }
 }
