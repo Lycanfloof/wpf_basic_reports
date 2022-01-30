@@ -40,3 +40,5 @@ C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022
 C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\ref\wpf-basic-reports.dll
 C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\wpf-basic-reports.pdb
 C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\wpf-basic-reports.genruntimeconfig.cache
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\bin\Debug\net6.0-windows\DotNetProjects.DataVisualization.Toolkit.dll
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\wpf-basic-reports.csproj.CopyComplete

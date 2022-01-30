@@ -1,6 +1,7 @@
 ﻿using Microsoft.Win32;
 using System.Collections.Generic;
 using System.Windows;
+using System.Windows.Controls.DataVisualization.Charting.Compatible;
 using wpf_basic_reports.src.model;
 
 namespace wpf_basic_reports.src.ui
@@ -69,6 +70,14 @@ namespace wpf_basic_reports.src.ui
             {
                 TownGrid.ItemsSource = townDisplay.Towns;
             }
+        }
+
+        public void loadBarChartData() 
+        {
+            ((BarSeries)TownChart.Series[0]).ItemsSource =
+                new KeyValuePair<string, int>[] {
+                    new KeyValuePair<string, int>("Hola", 10) 
+                };
         }
     }
 }

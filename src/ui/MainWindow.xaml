@@ -4,6 +4,9 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf_basic_reports.src.ui"
+        xmlns:DVC="System.Windows.Controls.DataVisualization.Charting;
+        assembly=System.Windows.Controls.DataVisualization.Toolkit" 
+        xmlns:DVC1="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=DotNetProjects.DataVisualization.Toolkit"
         mc:Ignorable="d"
         Title="Town Display" Height="450" Width="800">
     <Grid>
@@ -21,5 +24,16 @@
         <ScrollViewer Grid.Row="2" CanContentScroll="True">
             <DataGrid x:Name="TownGrid" Grid.Row="1"/>
         </ScrollViewer>
+
+        <DVC1:Chart Name="TownChart">
+            <DVC1:Chart.Series>
+                <DVC1:BarSeries
+                    IndependentValueBinding="{Binding Path=Key}"
+                    DependentValueBinding="{Binding Path=Value}">
+                </DVC1:BarSeries>
+            </DVC1:Chart.Series>
+        </DVC1:Chart>
+        
+        
     </Grid>
 </Window>
