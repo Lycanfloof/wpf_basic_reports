@@ -21,19 +21,16 @@
             <Button Content="View Chart" Click="ChartButtonClick"/>
         </ToolBar>
         <ComboBox Name ="SelectBox" Grid.Row="1" Margin="15, 5, 600, 5" SelectionChanged="ComboBoxSelectionChanged"/>
-        <ScrollViewer Grid.Row="2" CanContentScroll="True">
-            <DataGrid x:Name="TownGrid" Grid.Row="1"/>
+        <ScrollViewer Grid.Row="2" Name="ScrollBar">
+            <DataGrid x:Name="TownGrid" Grid.Row="2" ColumnWidth="*"/>
         </ScrollViewer>
-
         <DVC1:Chart Name="TownChart" Visibility="Hidden" Grid.Row="2">
-
             <DVC1:Chart.LegendStyle>
                 <Style TargetType="Control">
                     <Setter Property="Width" Value="0"/>
                     <Setter Property="Height" Value="0"/>
                 </Style>
             </DVC1:Chart.LegendStyle>
-
             <DVC1:Chart.Series>
                 <DVC1:BarSeries
                     IndependentValueBinding="{Binding Path=Key}"
@@ -41,7 +38,5 @@
                 </DVC1:BarSeries>
             </DVC1:Chart.Series>
         </DVC1:Chart>
-        
-        
     </Grid>
 </Window>
