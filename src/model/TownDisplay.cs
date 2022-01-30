@@ -19,7 +19,7 @@ namespace wpf_basic_reports.src.model
             while ((value = sr.ReadLine()) != null)
             {
                 string[] values = value.Split(",");
-                Towns.Add(new Town(Convert.ToInt32(values[0]), Convert.ToInt32(values[1]), values[2], values[3]));
+                Towns.Add(new Town(Convert.ToInt32(values[0]), Convert.ToInt32(values[1]), values[2], values[3], values[4]));
             }
         }
     }

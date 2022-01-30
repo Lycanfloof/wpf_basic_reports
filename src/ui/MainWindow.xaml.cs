@@ -1,7 +1,7 @@
 ﻿using Microsoft.Win32;
 using System.Collections.Generic;
 using System.Windows;
-using System.Windows.Controls.DataVisualization.Charting.Compatible;
+using System.Windows.Controls.DataVisualization.Charting;
 using wpf_basic_reports.src.model;
 
 namespace wpf_basic_reports.src.ui
@@ -38,17 +38,22 @@ namespace wpf_basic_reports.src.ui
                     }
                 }
                 TableButtonClick(sender, e);
+                loadBarChartData();
             }
         }
 
         private void TableButtonClick(object sender, RoutedEventArgs e)
         {
-            //Implement Hide/Visualize Table
+            TownChart.Visibility = Visibility.Hidden;
+            SelectBox.Visibility = Visibility.Visible;
+            TownGrid.Visibility = Visibility.Visible;
         }
 
         private void ChartButtonClick(object sender, RoutedEventArgs e)
         {
-            //Implement Hide/Visualize Chart
+            TownChart.Visibility = Visibility.Visible;
+            SelectBox.Visibility = Visibility.Hidden;
+            TownGrid.Visibility = Visibility.Hidden;
         }
 
         private void ComboBoxSelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
@@ -74,9 +79,31 @@ namespace wpf_basic_reports.src.ui
 
         public void loadBarChartData() 
         {
+            int area = 0;
+            int town = 0;
+            int island = 0;
+
+            for (int i  = 0; i < townDisplay.Towns.Count; i++) 
+            {
+                switch (townDisplay.Towns[i].TownType) 
+                {
+                    case "Municipio":
+                        town++;
+                        break;
+                    case "Isla":
+                        island++;
+                        break;
+                    case "Área no municipalizada":
+                        area++;
+                        break;
+                }
+            }
+
             ((BarSeries)TownChart.Series[0]).ItemsSource =
                 new KeyValuePair<string, int>[] {
-                    new KeyValuePair<string, int>("Hola", 10) 
+                    new KeyValuePair<string, int>("Municipio", town) ,
+                    new KeyValuePair<string, int>("Isla", island) ,
+                    new KeyValuePair<string, int>("Area No Mu", area)
                 };
         }
     }

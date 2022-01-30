@@ -25,7 +25,7 @@
             <DataGrid x:Name="TownGrid" Grid.Row="1"/>
         </ScrollViewer>
 
-        <DVC1:Chart Name="TownChart">
+        <DVC1:Chart Name="TownChart" Visibility="Hidden" Grid.Row="2">
             <DVC1:Chart.Series>
                 <DVC1:BarSeries
                     IndependentValueBinding="{Binding Path=Key}"
