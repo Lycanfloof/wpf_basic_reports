@@ -19,3 +19,24 @@ C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\wpf-basic
 C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\src\ui\MainWindow.g.cs
 C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\src\ui\App.g.cs
 C:\Users\ariep\source\repos\wpf-basic-reports\obj\Debug\net6.0-windows\src\ui\MainWindow.baml
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\bin\Debug\net6.0-windows\wpf-basic-reports.exe
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\bin\Debug\net6.0-windows\wpf-basic-reports.deps.json
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\bin\Debug\net6.0-windows\wpf-basic-reports.runtimeconfig.json
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\bin\Debug\net6.0-windows\wpf-basic-reports.dll
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\bin\Debug\net6.0-windows\ref\wpf-basic-reports.dll
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\bin\Debug\net6.0-windows\wpf-basic-reports.pdb
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\wpf-basic-reports.csproj.AssemblyReference.cache
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\src\ui\MainWindow.g.cs
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\src\ui\App.g.cs
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\wpf-basic-reports_MarkupCompile.cache
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\wpf-basic-reports_MarkupCompile.lref
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\src\ui\MainWindow.baml
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\wpf-basic-reports.g.resources
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\wpf-basic-reports.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\wpf-basic-reports.AssemblyInfoInputs.cache
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\wpf-basic-reports.AssemblyInfo.cs
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\wpf-basic-reports.csproj.CoreCompileInputs.cache
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\wpf-basic-reports.dll
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\ref\wpf-basic-reports.dll
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\wpf-basic-reports.pdb
+C:\Users\julia\OneDrive - Universidad Icesi (@icesi.edu.co)\Documents\ICESI\2022-1\PI\C#\wpf_basic_reports\obj\Debug\net6.0-windows\wpf-basic-reports.genruntimeconfig.cache

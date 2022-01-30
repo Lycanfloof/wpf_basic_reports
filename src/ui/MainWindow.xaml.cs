@@ -26,6 +26,7 @@ namespace wpf_basic_reports.src.ui
             {
                 townDisplay.ReadData(openFileDialog.FileName);
                 TownGrid.ItemsSource = townDisplay.Towns;
+                TownGrid.Items.Refresh();
                 SelectBox.Items.Add("");
                 SelectBox.SelectedIndex = 0;
                 for (int i = 0; i < townDisplay.Towns.Count; i++)
@@ -62,6 +63,7 @@ namespace wpf_basic_reports.src.ui
                     }
                 }
                 TownGrid.ItemsSource = FilteredList;
+                TownGrid.Items.Refresh();
             }
             else
             {
