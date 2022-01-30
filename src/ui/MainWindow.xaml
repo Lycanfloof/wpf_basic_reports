@@ -9,6 +9,7 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <ToolBar Grid.Row="0">
@@ -16,7 +17,8 @@
             <Button Content="View Table" Click="TableButtonClick"/>
             <Button Content="View Chart" Click="ChartButtonClick"/>
         </ToolBar>
-        <ScrollViewer Grid.Row="1" CanContentScroll="True">
+        <ComboBox Name ="SelectBox" Grid.Row="1" Margin="15, 5, 600, 5" SelectionChanged="ComboBoxSelectionChanged"/>
+        <ScrollViewer Grid.Row="2" CanContentScroll="True">
             <DataGrid x:Name="TownGrid" Grid.Row="1"/>
         </ScrollViewer>
     </Grid>
