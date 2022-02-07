@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2s6FhI1dv9q/hnS9dpKwwEeDYpbG6jSPHEm/VFR4fDhHkGE20pZaB6dNKdteTPAEX6yZjZhuZmJq7TzIzIQ7xg==",
+  "dgSpecHash": "Ym8dYH4/MzzaNSDpl2D9NgCdIn9An6F4d4JfAApPtw9BRWbwfbx8dmWu/rMrgqR5LDY3JcnkX+ojGP0seuZK7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\julia\\OneDrive - Universidad Icesi (@icesi.edu.co)\\Documents\\ICESI\\2022-1\\PI\\C#\\wpf_basic_reports\\wpf-basic-reports.csproj",
+  "projectFilePath": "C:\\Users\\ariep\\source\\repos\\wpf_basic_reports\\wpf-basic-reports.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\julia\\.nuget\\packages\\dotnetprojects.wpftoolkit.datavisualization\\6.1.94\\dotnetprojects.wpftoolkit.datavisualization.6.1.94.nupkg.sha512"
+    "C:\\Users\\ariep\\.nuget\\packages\\dotnetprojects.wpftoolkit.datavisualization\\6.1.94\\dotnetprojects.wpftoolkit.datavisualization.6.1.94.nupkg.sha512"
   ],
   "logs": []
 }

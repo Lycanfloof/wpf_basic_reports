@@ -19,7 +19,6 @@ namespace wpf_basic_reports.src.ui
             FilteredList = new List<Town>();
             InitializeComponent();
         }
-
         private void OpenButtonClick(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new();
@@ -38,24 +37,23 @@ namespace wpf_basic_reports.src.ui
                     }
                 }
                 TableButtonClick(sender, e);
-                loadBarChartData();
+                LoadBarChartData();
             }
         }
-
         private void TableButtonClick(object sender, RoutedEventArgs e)
         {
             TownChart.Visibility = Visibility.Hidden;
             SelectBox.Visibility = Visibility.Visible;
             TownGrid.Visibility = Visibility.Visible;
+            ScrollBar.Visibility = Visibility.Visible;
         }
-
         private void ChartButtonClick(object sender, RoutedEventArgs e)
         {
             TownChart.Visibility = Visibility.Visible;
             SelectBox.Visibility = Visibility.Hidden;
             TownGrid.Visibility = Visibility.Hidden;
+            ScrollBar.Visibility = Visibility.Hidden;
         }
-
         private void ComboBoxSelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
         {
             if ((string)SelectBox.SelectedItem != "")
@@ -74,15 +72,14 @@ namespace wpf_basic_reports.src.ui
             else
             {
                 TownGrid.ItemsSource = townDisplay.Towns;
+                TownGrid.Items.Refresh();
             }
         }
-
-        public void loadBarChartData() 
+        public void LoadBarChartData() 
         {
             int area = 0;
             int town = 0;
             int island = 0;
-
             for (int i  = 0; i < townDisplay.Towns.Count; i++) 
             {
                 switch (townDisplay.Towns[i].TownType) 
@@ -98,12 +95,11 @@ namespace wpf_basic_reports.src.ui
                         break;
                 }
             }
-
             ((BarSeries)TownChart.Series[0]).ItemsSource =
                 new KeyValuePair<string, int>[] {
-                    new KeyValuePair<string, int>("Municipio", town) ,
-                    new KeyValuePair<string, int>("Isla", island) ,
-                    new KeyValuePair<string, int>("Area No Mu", area)
+                    new KeyValuePair<string, int>("Town (" + town + ") ", town) ,
+                    new KeyValuePair<string, int>("Island (" + island + ") ", island) ,
+                    new KeyValuePair<string, int>("Non-municipalized area (" + area + ") ", area)
                 };
         }
     }

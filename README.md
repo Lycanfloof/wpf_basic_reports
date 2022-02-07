@@ -1,7 +1,7 @@
 wpf-basic-reports
 ------------
 
-Authors: Julian Camilo Bolaños & Ariel Eduardo Pabón (lyca22)
+Authors: Julian Camilo Bolaños & Ariel Eduardo Pabón (Lycanfloof)
 
 This software was built using .NET 6 and C#.
 
